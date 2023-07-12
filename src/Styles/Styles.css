@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    margin: 20px auto;
 }
 
 .stars-wrap {
@@ -11,6 +12,13 @@
     align-items: center;
     text-align: center;
     margin-bottom: 0;
+}
+
+.stars-amount {
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2196f3;
 }
 
 .star {
@@ -22,16 +30,21 @@
     margin-right: 0;
 }
 
+.buttons-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .selected-number-wrap {
     display: flex;
     gap: 10px;
     align-items: center;
-    min-height: 24px;
 }
 
 .selected-number {
     text-align: center;
-    background-color: lightgreen;
+    background-color: #30aeeb;
     width: 24px;
     border-radius: 50%;
     cursor: pointer;
@@ -52,6 +65,7 @@
     width: 24px;
     border-radius: 4px;
     text-align: center;
+    user-select: none;
 }
 
 .selected {
