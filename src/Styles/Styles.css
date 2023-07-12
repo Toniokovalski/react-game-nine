@@ -1,0 +1,69 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.stars-wrap {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.star {
+    font-size: 24px;
+    margin-right: 0;
+}
+
+.stars-wrap .star {
+    margin-right: 0;
+}
+
+.selected-number-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-height: 24px;
+}
+
+.selected-number {
+    text-align: center;
+    background-color: lightgreen;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.numbers-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.number {
+    padding: 2px 6px;
+    cursor: pointer;
+    background-color: #ccc;
+    width: 24px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.selected {
+    background-color: #eee;
+    color: #ddd;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.used {
+    background-color: #aaddaa;
+    color: #ddd;
+    cursor: not-allowed;
+    pointer-events: none;
+}
